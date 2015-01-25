@@ -1,0 +1,199 @@
+@import url( http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Source+Code+Pro:500|Open+Sans|Oswald );
+#io2012-toc {
+	left: 10px; top: 0px; position: absolute; z-index: 999;
+}
+#io2012-toc a {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+#io2012-toc .nav-pills > .active > a {
+	color: yellow; background-color: darkslategray;
+}
+#io2012-toc li {
+	margin-bottom: 0em;
+}
+#io2012-toc li.current {
+	background-color: yellow;
+}
+.license {
+	left: 60px; bottom: 30px; color: rgb(169, 169, 169); font-size: 14px; position: absolute;
+}
+.title-slide hgroup > h1 {
+	font-family: "Oswald", sans-serif;
+}
+.title-slide hgroup > h2 {
+	font-family: "Oswald", "Calibri", sans-serif;
+}
+article p {
+	text-align: justify; color: rgb(68, 68, 68); line-height: 1.5em; font-family: "Open Sans","Helvetica", "Crimson Text", "Garamond", "Palatino", sans-serif; font-size: 22px;
+}
+article li {
+	text-align: justify; color: rgb(68, 68, 68); line-height: 1.5em; font-family: "Open Sans","Helvetica", "Crimson Text", "Garamond", "Palatino", sans-serif; font-size: 22px;
+}
+article li.build {
+	text-align: justify; color: rgb(68, 68, 68); line-height: 1.5em; font-family: "Open Sans","Helvetica", "Crimson Text", "Garamond", "Palatino", sans-serif; font-size: 22px;
+}
+section p {
+	text-align: justify; color: rgb(68, 68, 68); line-height: 1.5em; font-family: "Open Sans","Helvetica", "Crimson Text", "Garamond", "Palatino", sans-serif; font-size: 22px;
+}
+section li {
+	text-align: justify; color: rgb(68, 68, 68); line-height: 1.5em; font-family: "Open Sans","Helvetica", "Crimson Text", "Garamond", "Palatino", sans-serif; font-size: 22px;
+}
+slide:not(.segue) h2 {
+	color: rgb(204, 41, 4); line-height: 1.2em; letter-spacing: -2px; font-family: "Calibri", Arial, sans-serif; font-size: 52px; font-style: normal; font-weight: bold;
+}
+slides > slide > hgroup + article {
+	margin-top: 15px;
+}
+iframe {
+	margin: 0px; padding: 0px; border: currentColor; border-image: none;
+}
+.left.rimage {
+	text-align: left;
+}
+.right.rimage {
+	text-align: right;
+}
+.center.rimage {
+	text-align: center;
+}
+article q {
+	font-family: "Crimson Text", sans-serif;
+}
+q {
+	line-height: 56px; font-size: 44px; margin-top: 100px; margin-right: 150px; margin-left: 50px; display: block;
+}
+q::before {
+	width: 2em; text-align: right; color: silver; font-size: 90px; margin-left: -2.1em; display: inline-block; position: absolute; content: "“";
+}
+q::after {
+	color: silver; font-size: 90px; margin-left: 0.1em; position: absolute; content: "”";
+}
+div.author {
+	text-align: right; font-size: 40px; margin-top: 20px; margin-right: 150px;
+}
+div.author::before {
+	content: "—";
+}
+q.shout::before {
+	margin-left: -0.5em; position: absolute; content: "";
+}
+q.shout::after {
+	margin-left: 0.1em; position: absolute; content: "";
+}
+table caption {
+	font-family: "Trebuchet MS", Garuda, sans-serif; font-weight: normal; margin-top: 20pt;
+}
+table th {
+	text-transform: capitalize;
+}
+table {
+	border: currentColor; border-image: none; width: 100%; color: rgb(102, 102, 102); line-height: 32px; font-family: "Trebuchet MS"; font-size: 24px; font-weight: bolder; border-collapse: collapse;
+}
+table thead {
+	border-top-color: rgb(191, 190, 173); border-bottom-color: rgb(191, 190, 173); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+table th {
+	margin: 0px; padding: 2pt 6pt; text-align: left; vertical-align: top;
+}
+table td {
+	margin: 0px; padding: 2pt 6pt; text-align: left; vertical-align: top;
+}
+table caption {
+	margin: 0px; padding: 2pt 6pt; text-align: left; vertical-align: top;
+}
+table th {
+	background: rgb(207, 206, 189); color: rgb(87, 84, 0); text-transform: uppercase;
+}
+table td {
+	border-bottom-color: rgb(207, 206, 189); border-bottom-width: 1px; border-bottom-style: solid;
+}
+table tr:nth-child(2n+1) {
+	background: rgb(239, 238, 221);
+}
+ol {
+	margin-bottom: 1em; margin-left: 1.2em; postion: relative;
+}
+ol li {
+	font-family: "Open Sans"; margin-bottom: 0.5em;
+}
+ol li ol {
+	margin-bottom: 0px; margin-left: 0.5em;
+}
+ol {
+	margin-top: 0.5em;
+}
+ul {
+	margin-top: 0.5em;
+}
+ol {
+	list-style-type: decimal;
+}
+.example {
+	font: bold 0.82em/normal sans-serif; padding: 0.6em 3.5em; top: 1.2em; text-align: center; right: -3.2em; color: rgb(255, 255, 0); text-decoration: none; display: block; position: absolute; font-size-adjust: none; font-stretch: normal; box-shadow: inset 0px 0px 0px 1px #1d212e, inset 0px 0px 2px 1px #fff, 0px 0px 1em #888; text-shadow: 1px -1px 8px rgba(0,0,0,0.6); transform: rotate(45deg); background-color: rgb(18, 22, 33); -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -webkit-user-select: none; -moz-user-select: none; user-select: none; -webkit-box-shadow: 0 0 0 1px #1d212e inset, 0 0 2px 1px #fff inset, 0 0 1em #888; -moz-box-shadow: 0 0 0 1px #1d212e inset, 0 0 2px 1px #fff inset, 0 0 1em #888;
+}
+.definition {
+	font: bold 0.82em/normal sans-serif; padding: 0.6em 3.5em; top: 1.2em; text-align: center; right: -3.2em; color: rgb(255, 255, 255); text-decoration: none; display: block; position: absolute; font-size-adjust: none; font-stretch: normal; box-shadow: inset 0px 0px 0px 1px #1d212e, inset 0px 0px 2px 1px #fff, 0px 0px 1em #888; text-shadow: 1px -1px 8px rgba(0,0,0,0.6); transform: rotate(45deg); background-color: rgb(170, 0, 0); -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -webkit-user-select: none; -moz-user-select: none; user-select: none; -webkit-box-shadow: 0 0 0 1px #1d212e inset, 0 0 2px 1px #fff inset, 0 0 1em #888; -moz-box-shadow: 0 0 0 1px #1d212e inset, 0 0 2px 1px #fff inset, 0 0 1em #888;
+}
+aside.gbar img {
+	width: 175px;
+}
+div.modal-body pre {
+	left: 0px; width: 95%;
+}
+.pagination {
+	left: 110px; bottom: -5px; position: absolute;
+}
+.pagination ul li::before {
+	content: "";
+}
+body {
+	color: rgb(68, 68, 68); font-family: "Open Sans";
+}
+p {
+	text-align: justify; line-height: 1.5em;
+}
+section.video {
+	top: 0px; right: 0px; position: absolute; z-index: 1000;
+}
+.modal pre code {
+	font-size: 16px;
+}
+img.center {
+	margin: auto; display: block;
+}
+body {
+	background-color: rgb(0, 0, 0);
+}
+.quiz-option label {
+	font-size: 1em; display: inline;
+}
+slide.segue h2 {
+	font-family: "Open Sans Condensed"; font-weight: 700;
+}
+slide:not(.segue) h2 {
+	color: darkslategray; font-family: "Open Sans Condensed"; font-weight: 700;
+}
+article p {
+	font-family: "Open Sans";
+}
+code {
+	color: darkred; font-family: "Source Code Pro", monospace; font-size: 100%;
+}
+pre code {
+	border-radius: 5px; font-weight: 500; -webkit-border-radius: 5px;
+}
+#glimmer iframe {
+	width: 100%;
+}
+.title-slide {
+	background-color: rgb(203, 231, 165);
+}
+.title-slide hgroup > h1 {
+	font-family: "Oswald", "Helvetica", sanserif;
+}
+.title-slide hgroup > h1 {
+	color: rgb(83, 94, 67);
+}
+.title-slide hgroup > h2 {
+	color: rgb(83, 94, 67);
+}

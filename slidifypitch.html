@@ -1,0 +1,102 @@
+﻿<!DOCTYPE HTML>
+<!DOCTYPE html PUBLIC "" ""><HTML><HEAD><META content="IE=11.0000" 
+http-equiv="X-UA-Compatible">
+   <TITLE>Smart Phone Cover Glass Scratch Test</TITLE>   
+<META charset="utf-8">   
+<META name="description" content="Smart Phone Cover Glass Scratch Test">   
+<META name="author" content="Jun Xie, Data Scientist">   
+<META name="GENERATOR" content="MSHTML 11.00.9600.17496">   
+<META name="apple-mobile-web-app-capable" content="yes">   
+<META http-equiv="X-UA-Compatible" content="chrome=1">   <LINK href="slidifypitch_files/default.css" 
+rel="stylesheet" media="all">   <LINK href="slidifypitch_files/phone.css" rel="stylesheet" 
+media="only screen and (max-device-width: 480px)">   <LINK href="slidifypitch_files/slidify.css" 
+rel="stylesheet">   <LINK href="slidifypitch_files/tomorrow.css" rel="stylesheet"> 
+  <!-- This amazingness opens all links in a new tab. -->  <LINK href="slidifypitch_files/ribbons.css" 
+rel="stylesheet">     <!-- Grab CDN jQuery, fall back to local if offline -->   
+<SCRIPT src="slidifypitch_files/jquery-1.7.min.js"></SCRIPT>
+   
+<SCRIPT>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</SCRIPT>
+   
+<SCRIPT src="slidifypitch_files/require-1.0.8.min.js" data-main="libraries/frameworks/io2012/js/slides"></SCRIPT>
+     </HEAD> 
+<BODY style="opacity: 0;"><slides class="layout-widescreen"><!-- LOGO SLIDE -->  
+       <slide class="title-slide segue nobackground"><HGROUP 
+class="auto-fadein">
+<H1>Smart Phone Cover Glass Scratch Test</H1>
+<H2>A Shiny App for Accurate Data Reporting and Reproducible Statistical 
+Analysis</H2>
+<P>Jun Xie, Data Scientist<BR>Touch Panel Product 
+Engineering</P></HGROUP><ARTICLE></ARTICLE></slide>         <!-- SLIDES -->     
+<slide id="slide-1" style=""><ARTICLE data-timings="">
+<STYLE>
+.title-slide {background-color: #FFF}
+</STYLE>
+ 
+<H2>Motivation</H2>
+<OL>
+  <LI>Scratch damage of smart phone cover glass is one of the major issues for 
+  both users and vendors. </LI>
+  <LI>Novel materials are under development to improve anti-scratch performance. 
+  Scratch tests being conducted in various locales around the world generate 
+  constant streams of data. </LI>
+  <LI>A shiny app is being developed in order to record scratch-test data 
+  accurately along with test conditions and provide statistical data analysis 
+  instantly to guide R&amp;D efforts. </LI></OL></ARTICLE><!-- Presenter Notes --> 
+</slide> <slide class="class" id="id" style=""><HGROUP>
+<H2>Shiny App</H2></HGROUP><ARTICLE data-timings="">
+<H3>The user interface consists of two parts</H3>
+<OL>
+  <LI>A Sidebar panel for recording tests conditions and taking other user 
+  inputs. </LI>
+  <LI>A Main panal with multiple tabs that display data plots or analysis 
+  results.</LI></OL>
+<P><IMG src="slidifypitch_files/scratchtest_app_small.jpg"></P></ARTICLE><!-- Presenter Notes --> 
+</slide> <slide class="class" id="id" style=""><HGROUP>
+<H2>Data Analysis</H2></HGROUP><ARTICLE data-timings="">
+<H3>Data analysis results are reported under the "Summary" tab.</H3>
+<P>At present the app only performs simple statiscal data analysis, reporting 
+the results under the "Summary" tab. With additional develpment time, advanced 
+analysis features will be incorporated.</P>
+<PRE><CODE>## $`1`
+##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+##   49.03   55.55   59.86   61.17   66.65   78.39 
+## 
+## $`2`
+##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+##   46.22   55.60   60.34   60.59   64.03   87.92 
+## 
+## $`3`
+##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+##   38.65   52.22   59.04   58.63   65.87   79.01
+</CODE></PRE></ARTICLE><!-- Presenter Notes --> 
+</slide> <slide class="class" id="id" style=""><HGROUP>
+<H2>Future Development</H2></HGROUP><ARTICLE data-timings="">
+<H3>Plan to incorporate advanced features such as</H3>
+<OL>
+  <LI>Bootstrapping to study noisy data sets</LI>
+  <LI>Unsupervised learning to provide better understanding of test 
+  performance</LI>
+  <LI>Anormaly detection to support high-volume production</LI></OL></ARTICLE><!-- Presenter Notes --> 
+</slide>     <slide class="backdrop"></slide></slides>   
+<DIV class="pagination pagination-small" id="io2012-ptoc" 
+style="display: none;">
+<UL>
+  <LI><A title="" href="file:///C:/Users/JXie/Desktop/Coursera/Dev_Data_Products/slidify_apps/touch_panel_test/index.html#" 
+  target="_self" rel="tooltip" data-slide="1">         1       </A>     </LI>
+  <LI><A title="Shiny App" href="file:///C:/Users/JXie/Desktop/Coursera/Dev_Data_Products/slidify_apps/touch_panel_test/index.html#" 
+  target="_self" rel="tooltip" data-slide="2">         2       </A>     </LI>
+  <LI><A title="Data Analysis" href="file:///C:/Users/JXie/Desktop/Coursera/Dev_Data_Products/slidify_apps/touch_panel_test/index.html#" 
+  target="_self" rel="tooltip" data-slide="3">         3       </A>     </LI>
+  <LI><A title="Future Development" href="file:///C:/Users/JXie/Desktop/Coursera/Dev_Data_Products/slidify_apps/touch_panel_test/index.html#" 
+  target="_self" rel="tooltip" data-slide="4">         4       </A>     
+</LI></UL></DIV><!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]--> 
+        
+<SCRIPT src="slidifypitch_files/highlight.pack.js"></SCRIPT>
+   
+<SCRIPT>hljs.initHighlightingOnLoad();</SCRIPT>
+   <!-- DONE LOADING HIGHLIGHTER JS FILES -->      </BODY><!-- Load Javascripts for Widgets --><!-- LOAD HIGHLIGHTER JS FILES --></HTML>

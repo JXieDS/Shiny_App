@@ -1,0 +1,147 @@
+.tomorrow-comment {
+	color: rgb(142, 144, 140);
+}
+pre .comment {
+	color: rgb(142, 144, 140);
+}
+pre .title {
+	color: rgb(142, 144, 140);
+}
+.tomorrow-red {
+	color: rgb(200, 40, 41);
+}
+pre .variable {
+	color: rgb(200, 40, 41);
+}
+pre .attribute {
+	color: rgb(200, 40, 41);
+}
+pre .tag {
+	color: rgb(200, 40, 41);
+}
+pre .regexp {
+	color: rgb(200, 40, 41);
+}
+pre .ruby .constant {
+	color: rgb(200, 40, 41);
+}
+pre .xml .tag .title {
+	color: rgb(200, 40, 41);
+}
+pre .xml .pi {
+	color: rgb(200, 40, 41);
+}
+pre .xml .doctype {
+	color: rgb(200, 40, 41);
+}
+pre .html .doctype {
+	color: rgb(200, 40, 41);
+}
+pre .css .id {
+	color: rgb(200, 40, 41);
+}
+pre .css .class {
+	color: rgb(200, 40, 41);
+}
+pre .css .pseudo {
+	color: rgb(200, 40, 41);
+}
+.tomorrow-orange {
+	color: rgb(245, 135, 31);
+}
+pre .number {
+	color: rgb(245, 135, 31);
+}
+pre .preprocessor {
+	color: rgb(245, 135, 31);
+}
+pre .built_in {
+	color: rgb(245, 135, 31);
+}
+pre .literal {
+	color: rgb(245, 135, 31);
+}
+pre .params {
+	color: rgb(245, 135, 31);
+}
+pre .constant {
+	color: rgb(245, 135, 31);
+}
+.tomorrow-yellow {
+	color: rgb(234, 183, 0);
+}
+pre .class {
+	color: rgb(234, 183, 0);
+}
+pre .ruby .class .title {
+	color: rgb(234, 183, 0);
+}
+pre .css .rules .attribute {
+	color: rgb(234, 183, 0);
+}
+.tomorrow-green {
+	color: rgb(113, 140, 0);
+}
+pre .string {
+	color: rgb(113, 140, 0);
+}
+pre .value {
+	color: rgb(113, 140, 0);
+}
+pre .inheritance {
+	color: rgb(113, 140, 0);
+}
+pre .header {
+	color: rgb(113, 140, 0);
+}
+pre .ruby .symbol {
+	color: rgb(113, 140, 0);
+}
+pre .xml .cdata {
+	color: rgb(113, 140, 0);
+}
+.tomorrow-aqua {
+	color: rgb(62, 153, 159);
+}
+pre .css .hexcolor {
+	color: rgb(62, 153, 159);
+}
+.tomorrow-blue {
+	color: rgb(66, 113, 174);
+}
+pre .function {
+	color: rgb(66, 113, 174);
+}
+pre .python .decorator {
+	color: rgb(66, 113, 174);
+}
+pre .python .title {
+	color: rgb(66, 113, 174);
+}
+pre .ruby .function .title {
+	color: rgb(66, 113, 174);
+}
+pre .ruby .title .keyword {
+	color: rgb(66, 113, 174);
+}
+pre .perl .sub {
+	color: rgb(66, 113, 174);
+}
+pre .javascript .title {
+	color: rgb(66, 113, 174);
+}
+pre .coffeescript .title {
+	color: rgb(66, 113, 174);
+}
+.tomorrow-purple {
+	color: rgb(137, 89, 168);
+}
+pre .keyword {
+	color: rgb(137, 89, 168);
+}
+pre .javascript .function {
+	color: rgb(137, 89, 168);
+}
+pre code {
+	background: white; padding: 10px; border: 1px solid rgb(204, 204, 204); border-image: none; color: rgb(77, 77, 76); line-height: 1.5; font-family: Menlo, Monaco, Consolas, monospace; display: block;
+}

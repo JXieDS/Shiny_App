@@ -1,0 +1,3 @@
+slides > slide {
+	transition:none !important; -webkit-transition: none; -moz-transition: none; -o-transition: none;
+}
